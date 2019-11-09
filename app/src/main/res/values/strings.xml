@@ -1,3 +1,63 @@
 <resources>
     <string name="app_name">Sunshine</string>
+
+    <!--Strings for log in-->
+    <string name="button_name_sign_up">Sign Up</string>
+    <string name="button_name_sign_in">Sign In</string>
+    <string name="button_name_sign_out">Sign Out</string>
+    <string name="button_name_search">Search</string>
+    <string name="edit_text_name">Name</string>
+    <string name="edit_text_username">Username</string>
+    <string name="edit_text_password">Password</string>
+    <string name="go_back">Back</string>
+    <string name="edit_text_email">Email</string>
+    <string name="button_name_back">Back</string>
+    <string name="create_account">Don\'t have account? Sign Up</string>
+    <string name="existing_account">Already have account? Sign In</string>
+
+
+    <!--Content Descriptions-->
+    <string name="cd_background_gradient">Gradient for the background of the landing page</string>
+    <string name="cd_background_landing">Background for landing page</string>
+    <string name="cd_sunshine_logo">Sunshine logo for the landing page</string>
+    <string name="cd_button_next">This button will send the user to the next activity</string>
+    <string name="cd_button_back">This button will send the user to the previous activity</string>
+
+    <!--Saved Data Keys-->
+    <string name="sk_phone_number">savedPhoneNumber</string>
+    <string name="sk_full_phone_number">savedFullPhoneNumber</string>
+
+    <!--Intent Extras-->
+    <string name="extra_full_phone_number">EXTRA_FULL_PHONE_NUMBER</string>
+    <string name="extra_phone_number">EXTRA_PHONE_NUMBER</string>
+    <string name="extra_user_name">EXTRA_USER_NAME</string>
+
+    <!-- Other -->
+    <string name="recycle_symbol_description">Official Recycle Symbol</string>
+    <string name="search_hint">Search...</string>
+    <string name="get_started">Get Started</string>
+    <string name="onboard_phone_title">What\'s your number?</string>
+    <string name="onboard_phone_subtitle">We\'ll text a code to verify your phone</string>
+    <string name="onboard_auth_title">What\'s the code?</string>
+    <string name="onboard_auth_subtitle">Enter the code sent to:</string>
+    <string name="onboard_auth_null_code">Please provide a 6 digit code</string>
+    <string name="default_country_code">+233</string>
+    <string name="hint_phone_number">050 555 0123</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="hint_name">Name</string>
+    <string name="onboard_name_title">What\'s your name?</string>
+    <string name="onboard_terms_title">Do you agree to Sunshine\'s</string>
+    <string name="onboard_terms_subtitle"><a href="https://policies.google.com/terms">Terms of Service</a> and <a href="https://policies.google.com/privacy">Privacy Policy</a> ?</string>
+    <string name="button_yes">Yes</string>
+    <string name="cd_contract_image">Contract image for Terms of Service and Privacy Policy</string>
+    <string name="plus">+</string>
+
+    <string name="disposal_prompt">Where does it go?</string>
+    <string-array name="disposal_types">
+        <item>Garbage</item>
+        <item>Recycling</item>
+        <item>Food &amp; Yard Waste</item>
+        <item>Hazardous</item>
+        <item>Other</item>
+    </string-array>
 </resources>

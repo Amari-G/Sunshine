@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onboardAuthActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSurface"
+    android:fitsSystemWindows="true"
+    tools:context=".OnboardNumberActivity">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_round_arrow_back_ios_40px"
+        android:tint="@android:color/black"
+        android:contentDescription="@string/cd_button_back" />
+
+    <LinearLayout
+        android:id="@+id/onboardTitleBox"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_toEndOf="@id/backButton"
+        android:layout_below="@id/backButton"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/onboardAuthTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/onboard_auth_title"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/onboard_prompt_title_text" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/onboardAuthSubtitle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fontFamily="@font/montserrat"-->
+        <!--android:textColor="@color/colorError"-->
+        <!--android:textSize="@dimen/onboard_prompt_subtitle_text" />-->
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/authNumberContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/onboardTitleBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/onboard_vertical_margin_phone"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="5dp">
+
+        <EditText
+            android:id="@+id/phoneAuthField1"
+            android:layout_width="@dimen/phone_auth_code_width"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="@dimen/phone_auth_text_size"
+            android:textAlignment="center"
+            android:maxLength="1"
+            android:importantForAutofill="no"
+            android:cursorVisible="false"
+            android:imeOptions="actionDone"
+            android:imeActionLabel="Next"
+            tools:ignore="LabelFor,TextFields" />
+
+        <EditText
+            android:id="@+id/phoneAuthField2"
+            android:layout_width="@dimen/phone_auth_code_width"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toEndOf="@+id/phoneAuthField1"
+            android:textSize="@dimen/phone_auth_text_size"
+            android:textAlignment="center"
+            android:maxLength="1"
+            android:importantForAutofill="no"
+            android:cursorVisible="false"
+            android:imeOptions="actionDone"
+            android:imeActionLabel="Next"
+            tools:ignore="LabelFor,TextFields" />
+
+        <EditText
+            android:id="@+id/phoneAuthField3"
+            android:layout_width="@dimen/phone_auth_code_width"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toEndOf="@+id/phoneAuthField2"
+            android:textSize="@dimen/phone_auth_text_size"
+            android:textAlignment="center"
+            android:maxLength="1"
+            android:importantForAutofill="no"
+            android:cursorVisible="false"
+            android:imeOptions="actionDone"
+            android:imeActionLabel="Next"
+            tools:ignore="LabelFor,TextFields"/>
+
+        <EditText
+            android:id="@+id/phoneAuthField4"
+            android:layout_width="@dimen/phone_auth_code_width"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toEndOf="@+id/phoneAuthField3"
+            android:textSize="@dimen/phone_auth_text_size"
+            android:textAlignment="center"
+            android:maxLength="1"
+            android:importantForAutofill="no"
+            android:cursorVisible="false"
+            android:imeOptions="actionDone"
+            android:imeActionLabel="Next"
+            tools:ignore="LabelFor,TextFields"/>
+
+        <EditText
+            android:id="@+id/phoneAuthField5"
+            android:layout_width="@dimen/phone_auth_code_width"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toEndOf="@+id/phoneAuthField4"
+            android:textSize="@dimen/phone_auth_text_size"
+            android:textAlignment="center"
+            android:maxLength="1"
+            android:importantForAutofill="no"
+            android:cursorVisible="false"
+            android:imeOptions="actionDone"
+            android:imeActionLabel="Next"
+            tools:ignore="LabelFor,TextFields"/>
+
+        <EditText
+            android:id="@+id/phoneAuthField6"
+            android:layout_width="@dimen/phone_auth_code_width"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toEndOf="@+id/phoneAuthField5"
+            android:textSize="@dimen/phone_auth_text_size"
+            android:textAlignment="center"
+            android:maxLength="1"
+            android:autofillHints="num"
+            android:cursorVisible="false"
+            android:imeOptions="actionDone"
+            android:imeActionLabel="Next"
+            tools:ignore="LabelFor,TextFields"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/resendButton"
+        android:layout_width="272dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/authNumberContainer"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_resend_code"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/resend_code"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@id/authNumberContainer"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_main"
+        android:contentDescription="@string/cd_button_next"
+        android:tint="@android:color/white"
+        app:srcCompat="@drawable/ic_round_arrow_forward_24px" />
+
+</RelativeLayout>
