@@ -77,6 +77,14 @@ public class OnboardTermsActivity extends AppCompatActivity {
             }
         });
 
+//        Button vibeCheck = findViewById(R.id.vibeCheckButton);
+//        vibeCheck.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(createPackageContext("")));
+//            }
+//        });
+
     }
 
     //Custom URLSpan class that displays linked without an underline
