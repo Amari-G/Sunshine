@@ -30,10 +30,11 @@
         android:id="@+id/sunshineLogo"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
         android:contentDescription="@string/cd_sunshine_logo"
-        android:src="@drawable/sun_logo_black" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/sun_logo_black_500" />
 
     <Button
         android:id="@+id/lp_button_next"
