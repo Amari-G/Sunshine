@@ -4,16 +4,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/text_tools"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+    <EditText
+        android:id="@+id/prompt"
+        android:layout_width="134dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Hi how are ya?"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <RadioGroup
+        android:id="@+id/vibeButtonGroup"
+        android:layout_width="match_parent"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prompt">
+
+        <RadioButton
+            android:id="@+id/bestButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Great" />
+
+        <RadioButton
+            android:id="@+id/goodButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good" />
+
+        <RadioButton
+            android:id="@+id/mehButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alright" />
+
+        <RadioButton
+            android:id="@+id/littleBadButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bad" />
+
+        <RadioButton
+            android:id="@+id/bigBadButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I need help" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:background="@drawable/button_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vibeButtonGroup"
+        app:layout_constraintVertical_bias="0.673" />
 </androidx.constraintlayout.widget.ConstraintLayout>

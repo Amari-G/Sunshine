@@ -26,7 +26,7 @@
     <fragment
         android:id="@+id/nav_tools"
         android:name="com.example.sunshine.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
+        android:label="@string/menu_vibe"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
