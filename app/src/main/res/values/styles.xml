@@ -15,12 +15,13 @@
         <item name="font">@font/montserrat</item>
     </style>
 
+
     <style name="AppTheme.Landing" parent="AppTheme">
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowBackground">@drawable/layer_list</item>
     </style>
 
-    <style name="AppTheme.Onboard" parent="AppTheme"></style>
+    <style name="AppTheme.Onboard" parent="AppTheme"/>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
