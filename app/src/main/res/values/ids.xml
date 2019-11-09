@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Phone Number Activity-->
+    <item name="chooseCountryFrame" type="id"/>
+    <item name="countryFlag" type="id"/>
+    <item name="dropDownIcon" type="id"/>
+    <item name="countryButton" type="id"/>
+    <item name="phoneDivider" type="id"/>
+    <item name="countryCode" type="id"/>
+    <item name="countryCodePicker" type="id"/>
+    <item name="phoneNumber" type="id"/>
+    <item name="phoneAuthTitleBox" type="id"/>
+    <item name="phoneAuthTitle" type="id"/>
+    <item name="phoneAuthSubtitle" type="id"/>
+    <item name="onboardAuthSubtitle" type="id"/>
+    <item name="nameIcon" type="id"/>
+    <item name="fullName" type="id"/>
+</resources>
