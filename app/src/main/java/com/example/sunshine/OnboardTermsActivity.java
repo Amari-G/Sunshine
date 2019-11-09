@@ -72,10 +72,18 @@ public class OnboardTermsActivity extends AppCompatActivity {
                 OnboardNumberActivity.getInstance().finish(); //trying to finish phone number activity and causing error
 
                 startActivity(new Intent(OnboardTermsActivity.this,
-                        MainActivity.class));
+                        Main2Activity.class));
                 finishOnboardActivities();
             }
         });
+
+//        Button vibeCheck = findViewById(R.id.vibeCheckButton);
+//        vibeCheck.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(createPackageContext("")));
+//            }
+//        });
 
     }
 
