@@ -72,7 +72,7 @@ public class OnboardTermsActivity extends AppCompatActivity {
                 OnboardNumberActivity.getInstance().finish(); //trying to finish phone number activity and causing error
 
                 startActivity(new Intent(OnboardTermsActivity.this,
-                        MainActivity.class));
+                        Main2Activity.class));
                 finishOnboardActivities();
             }
         });

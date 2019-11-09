@@ -9,4 +9,10 @@
     <dimen name="phone_divider_width">2</dimen>
     <dimen name="phone_auth_code_width">40dp</dimen>
     <dimen name="phone_auth_text_size">28sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>
