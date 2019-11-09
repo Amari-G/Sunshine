@@ -60,4 +60,8 @@
         <item>Hazardous</item>
         <item>Other</item>
     </string-array>
+    <string name="used_to_call_hotline_when_needed">Used to call Hotline when needed</string>
+    <string name="upward_to_sunshine">Upward to Sunshine</string>
+    <string name="string_used_to_upload_content">Used to Upload Content</string>
+    <string name="Level">Level</string>
 </resources>
