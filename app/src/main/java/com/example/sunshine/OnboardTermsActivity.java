@@ -81,7 +81,7 @@ public class OnboardTermsActivity extends AppCompatActivity {
 //        vibeCheck.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                startActivity(new Intent(createPackageContext("")));
+//                startActivity(new Intent(createPackageContext("Vibe Check", 0)));
 //            }
 //        });
 
