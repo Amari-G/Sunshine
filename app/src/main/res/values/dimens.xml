@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="onboard_prompt_title_text">28sp</dimen>
+    <dimen name="onboard_prompt_subtitle_text">16sp</dimen>
+    <dimen name="onboard_phone_number_text">24sp</dimen>
+    <dimen name="onboard_vertical_margin_title">130dp</dimen>
+    <dimen name="onboard_vertical_margin_phone">30dp</dimen>
+
+    <dimen name="phone_divider_width">2</dimen>
+    <dimen name="phone_auth_code_width">40dp</dimen>
+    <dimen name="phone_auth_text_size">28sp</dimen>
+</resources>

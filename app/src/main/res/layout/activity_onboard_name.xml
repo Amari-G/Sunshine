@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onboardNameActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSurface"
+    tools:context=".OnboardNameActivity">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_round_arrow_back_ios_40px"
+        android:tint="@android:color/black"
+        android:contentDescription="@string/cd_button_back" />
+
+    <LinearLayout
+        android:id="@+id/onboardTitleBox"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_toEndOf="@id/backButton"
+        android:layout_below="@id/backButton"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/onboardNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/onboard_name_title"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/onboard_prompt_title_text" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/authNameContainer"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/onboardTitleBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/onboard_vertical_margin_phone"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/textfield_phone_number"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="5dp"/>
+
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@id/authNameContainer"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_main"
+        android:contentDescription="@string/cd_button_next"
+        android:tint="@android:color/white"
+        app:srcCompat="@drawable/ic_round_arrow_forward_24px" />
+
+</RelativeLayout>
